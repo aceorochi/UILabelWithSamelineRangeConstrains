@@ -10,4 +10,7 @@
 
 @interface UILabel (Extension)
 
+- (void)updateLineBreaksBySameLineRangeConstrains:(NSArray *)sameLineRanges
+                               withConstrainWidth:(CGFloat)constrainWidth;
+
 @end

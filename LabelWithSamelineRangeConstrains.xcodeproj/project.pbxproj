@@ -15,6 +15,7 @@
 		9DA8C9541CB49A6400319C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8C9521CB49A6400319C88 /* LaunchScreen.storyboard */; };
 		9DA8C95F1CB49A6400319C88 /* LabelWithSamelineRangeConstrainsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C95E1CB49A6400319C88 /* LabelWithSamelineRangeConstrainsTests.m */; };
 		9DA8C96A1CB49A6400319C88 /* LabelWithSamelineRangeConstrainsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C9691CB49A6400319C88 /* LabelWithSamelineRangeConstrainsUITests.m */; };
+		9DA8C9791CB49A8D00319C88 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8C9781CB49A8D00319C88 /* UILabel+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9DA8C9651CB49A6400319C88 /* LabelWithSamelineRangeConstrainsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelWithSamelineRangeConstrainsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA8C9691CB49A6400319C88 /* LabelWithSamelineRangeConstrainsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelWithSamelineRangeConstrainsUITests.m; sourceTree = "<group>"; };
 		9DA8C96B1CB49A6400319C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA8C9771CB49A8D00319C88 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		9DA8C9781CB49A8D00319C88 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9DA8C9481CB49A6400319C88 /* AppDelegate.m */,
 				9DA8C94A1CB49A6400319C88 /* ViewController.h */,
 				9DA8C94B1CB49A6400319C88 /* ViewController.m */,
+				9DA8C9771CB49A8D00319C88 /* UILabel+Extension.h */,
+				9DA8C9781CB49A8D00319C88 /* UILabel+Extension.m */,
 				9DA8C94D1CB49A6400319C88 /* Main.storyboard */,
 				9DA8C9501CB49A6400319C88 /* Assets.xcassets */,
 				9DA8C9521CB49A6400319C88 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8C9791CB49A8D00319C88 /* UILabel+Extension.m in Sources */,
 				9DA8C94C1CB49A6400319C88 /* ViewController.m in Sources */,
 				9DA8C9491CB49A6400319C88 /* AppDelegate.m in Sources */,
 				9DA8C9461CB49A6400319C88 /* main.m in Sources */,
